@@ -4,10 +4,10 @@ AI-powered GitHub Pull Request code review using xAI Grok models. Automatic PR c
 
 ## Features
 
-- Detect bugs
-- Suggest improvements
-- AI-driven PR feedback
-- Works with GitHub Actions
+- 🚀 Detect bugs
+- 🔍 Suggest improvements
+- 🧠 AI-driven PR feedback
+- ⚡ Works with GitHub Actions
 
 ## Quickstart
 
@@ -57,15 +57,15 @@ You can override it to focus on specific concerns, enforce coding standards, or 
 
 To use this action, you must add your xAI API key as a GitHub secret.
 
-### 1. Get your xAI API key
+### 1️⃣ Get your xAI API key
 
 Generate an API key from the [xAI console](https://console.x.ai/).
 
-### 2. Add the API key to your repository
+### 2️⃣ Add the API key to your repository
 
 1. Go to your GitHub repository
 2. Click **Settings**
-3. Navigate to **Secrets and variables > Actions**
+3. Navigate to **Secrets and variables → Actions**
 4. Click **New repository secret** and add:
 
    - **Name:** `XAI_API_KEY` — **Value:** your xAI API key
@@ -74,11 +74,11 @@ Generate an API key from the [xAI console](https://console.x.ai/).
 
 Instead of using default values for `XAI_MODEL`, `XAI_SYSTEM_PROMPT`, and `XAI_REVIEWER_NAME`, you can override them, and manage them as GitHub Actions variables. This lets you update the model, review prompt, or reviewer name without touching the workflow file.
 
-### 1. Add the variables to your repository
+### 1️⃣ Add the variables to your repository
 
 1. Go to your GitHub repository
 2. Click **Settings**
-3. Navigate to **Secrets and variables > Actions**
+3. Navigate to **Secrets and variables → Actions**
 4. Click the **Variables** tab
 5. Click **New repository variable** and add:
 
@@ -86,7 +86,7 @@ Instead of using default values for `XAI_MODEL`, `XAI_SYSTEM_PROMPT`, and `XAI_R
    - **Name:** `XAI_SYSTEM_PROMPT` — **Value:** your custom system prompt
    - **Name:** `XAI_REVIEWER_NAME` — **Value:** e.g. `AI Code Review`
 
-### 2. Reference them in your workflow
+### 2️⃣ Reference them in your workflow
 
 ```yaml
       - name: Code Review
